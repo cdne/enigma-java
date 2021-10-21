@@ -11,12 +11,12 @@ class Enigma {
             "   FileName        : path to file to encrypt/decrypt\n" +
             "   EncryptionKey   : Optional -> must be provided if cipher requires a key";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws EnigmaException {
         ArgsParser argsParser = new ArgsParser(args);
         handleCipherOperation(argsParser);
     }
 
-    private static void handleCipherOperation(ArgsParser argsParser) {
+    private static void handleCipherOperation(ArgsParser argsParser) throws EnigmaException {
         Cipher cipher = CipherFactory.getCipherForArgs(argsParser);
         // use cipher
     }
