@@ -10,3 +10,21 @@
 .idea/runConfigurations.xml
 
 .idea/vcs.xml
+
+target/classes/com/codecool/enigma/ArgsParser.class
+
+target/classes/com/codecool/enigma/Cipher.class
+
+target/classes/com/codecool/enigma/CipherFactory.class
+
+target/classes/com/codecool/enigma/Enigma.class
+
+target/classes/com/codecool/enigma/EnigmaException.class
+
+target/classes/com/codecool/enigma/HandleFiles.class
+
+target/classes/com/codecool/enigma/MorseCode.class
+
+target/classes/com/codecool/enigma/RailFence.class
+
+target/classes/com/codecool/enigma/Rot13.class
